@@ -1,3 +1,100 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container img {
+  position: relative;
+  top: 10%;
+  left: 25%;
+  bottom: -10%;
+  border-radius: 10px;
+}
+.weather-card {
+  position: absolute;
+  top: 1%;
+  left: 30%;
+  bottom: -25%;
+  width: 400px;
+  height: 580px;
+  background-color: rgba(255, 255, 255, 0.534);
+  padding: n10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.search-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0auto;
+  padding: 30px;
+  box-shadow: 10px;
+  border-radius: 30px;
+}
+.search-button {
+  background-color: red;
+  border-color: red;
+  color: white;
+  height: 38px;
+  width: 100px;
+  border-radius: 10px;
+}
+.search-button :hover {
+  background-color: white;
+  border-radius: 8px;
+  color: red;
+  cursor: pointer;
+  transition: transition 10ms ease-in-out;
+}
+
+.container text-center {
+  text-align: center;
+}
+
 h1 {
-    color: aquamarine;
+  color: #7c7c7c;
+  font-size: 28px;
+  margin: 0 auto;
+  padding: 0 0 0 20px;
+}
+.date {
+  color: #7c7c7c;
+  font-size: 15px;
+  margin: 0 auto;
+  padding: 0 0 0 20px;
+}
+
+.temperature {
+  color: rgb(33, 33, 33);
+  font-size: 90px;
+  line-height: 40px;
+  padding: 10px 0 0 40px;
+}
+
+.units {
+  position: relative;
+  top: -55px;
+  left: 1px;
+}
+
+.day {
+  font-size: 15px;
+  margin: 0 auto;
+  padding: 40px 0 0 40px;
+}
+
+.signs {
+  font-size: 40px;
+  margin: 0 auto;
+  padding: 40px 0 0 40px;
+}
+.text {
+  font-size: 13px;
+  margin: 0 auto;
+  padding: 40px 0 0 40px;
+}
+
+.under-Sign {
+  display: block;
+  text-align: center;
+  font-size: xx-small;
+  margin: 250px auto;
 }
